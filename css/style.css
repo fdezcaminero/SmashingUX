@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  color: black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.smashingnav {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 100px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.menu-item {
+  background-color: slategray;
+}
+
+.menu-item a {
+  color: white;
+}
+
+.mainlogo {
+  background-color: darkslategray;
+}
+
+.mainlogo a {
+  color: white; 
+}
+
+.search-item {
+  background-color: darkslategray;
+}
+
+.search-item a {
+  color: white; 
+}
+
+.awesomepadding {
+  padding: 20px;
+}
+
+.four-arts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.art1 {
+  background-color: silver;
+  color: white;
+  height: 900px;
+  width: 50%;
+}
+
+.art2 {
+  background-color: darkslategray;
+  color: white;
+  height: 900px;
+  width: 50%;
+}
+
+.art3 {
+  background-color: slategray;
+  color: white;
+  height: 900px;
+  width: 50%;
+}
+
+.art4 {
+  background-color: silver;
+  color: white;
+  height: 900px;
+  width: 50%;
+}
+
+.three-columns1 {
+  display: flex;
+}
+
+.col1 {
+  background-color: gainsboro;
+}
+
+.col2 {
+  background-color: slategray;
+}
+
+.col3 {
+  background-color: dimgray;
+}
+
+.colstyle {
+  height: 500px;
+  padding: 40px;
+  width: 33.333333%;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.sixtypercent-col {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  height: 500px;
+  margin-left: 10px;
+  width: 60%;
+}
+
+.fortypercent-col {
+  background-color: silver;
+  width: 40%;
+}
