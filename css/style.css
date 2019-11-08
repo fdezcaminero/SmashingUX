@@ -119,3 +119,52 @@
   background-color: silver;
   width: 40%;
 }
+
+.three-columns2 {
+  display: flex;
+}
+
+.col4 {
+  background-color: gainsboro;
+}
+
+.col5 {
+  background-color: slategray;
+}
+
+.col6 {
+  background-color: dimgray;
+}
+
+.SmashingTV {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  height: 500px;
+  margin: 0 auto;
+  padding: 200px;
+  width: 95%;
+}
+
+.SmashingTV p {
+  color: white;
+}
+
+.crazylink1 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.big-link {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  height: 500px;
+  margin: 0 auto;
+  padding: 200px;
+  width: 95%;
+}
+
+.big-link p {
+  color: white;
+}
