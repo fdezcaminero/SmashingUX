@@ -269,3 +269,34 @@ nav ul li:hover {
   margin: 30px 0;
   border-radius: 10px;
 }
+
+footer {
+  text-align: center;
+}
+
+.footer-li {
+  list-style: none;
+  font-size: 16pt;
+  padding: 20px 12px;
+}
+
+.footer-li a {
+  font-family: "Mija Regular";
+}
+
+.footer-li::before {
+  content: "\2022"; 
+  color: red; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  } 
+
+.footer-ul {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+}
