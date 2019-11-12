@@ -116,3 +116,14 @@
   height: 200px;
   width: 200px;
 }
+
+nav ul li:hover {
+  transform: scale(1.1);
+}
+
+.first-article-container h2 {
+  height: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+}
