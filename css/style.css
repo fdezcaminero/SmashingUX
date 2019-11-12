@@ -216,10 +216,14 @@ nav ul li:hover {
   transform: rotate(0);
 }
 
-.three-lists section {
-  display: inline;
-  list-style-type: disc;
-  list-style-position: outside;
-  list-style-image: none;
-  width: 33.3333333%
+.liststylebullet li {
+  list-style: disc inside none;
+}
+
+.listncolumn section {
+  width: 30%;
+}
+
+.listncolumn div {
+  width: 60%;
 }
