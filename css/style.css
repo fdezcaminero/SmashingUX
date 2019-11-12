@@ -75,8 +75,17 @@
 }
 
 .art {
-  height: 900px;
+  height: 750px;
+  padding: 200px 60px;
   width: 50%;
+}
+
+.art::after {
+  content: "→";
+  position: relative;
+  top: 130px;
+  font-size: 2.5rem;
+  color: black;
 }
 
 .colstyle {
@@ -141,20 +150,49 @@ nav ul li:hover {
 
 .first-article-container h2 {
   height: 0;
+  position: relative;
   text-align: center;
+  top: 20px;
   width: 100%;
   z-index: 5;
 }
 
 .author-photo {
-  height: 60px;
-  width: 60px;
   background-color: #979797;
-  border: 3px solid black;
   border-radius: 5px;
+  border: 3px solid black;
+  display: inline-block;
+  height: 60px;
   transform: rotate(-15deg);
+  width: 60px;
 }
 
 .author-name {
-  
+  display: inline-block;
+  font-size: 1.3rem;
+  margin-left: 20px;
+}
+
+.author-name em {
+  font-family: 'Mija Regular';
+}
+
+.article-title {
+  font-size: 2.8rem;
+  padding: 20px 0;
+}
+
+.article-title span {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  display: inline-block;
+  position: relative;
+  top: -7px;
+}
+
+.hashtags span {
+  font-size: .65rem;
+  display: inline-block;
+  position: relative;
+  top: -7px;
 }
