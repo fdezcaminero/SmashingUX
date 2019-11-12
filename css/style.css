@@ -80,6 +80,53 @@
   width: 50%;
 }
 
+.six-arts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.art5 {
+  background-color: lightgray;
+  color: white;
+  height: 900px;
+  width: 50%;
+}
+
+.art6 {
+  background-color: darkgray;
+  color: white;
+  height: 900px;
+  width: 50%;
+}
+
+.art7 {
+  background-color: gainsboro;
+  color: white;
+  height: 900px;
+  width: 50%;
+}
+
+.art8 {
+  background-color: darkslategray;
+  color: white;
+  height: 900px;
+  width: 50%;
+}
+
+.art9 {
+  background-color: silver;
+  color: white;
+  height: 900px;
+  width: 50%;
+}
+
+.art10 {
+  background-color: lightgray;
+  color: white;
+  height: 900px;
+  width: 50%;
+}
+
 .three-columns1 {
   display: flex;
 }
@@ -167,4 +214,17 @@
 
 .big-link p {
   color: white;
+}
+
+.pot-week {
+  background-color: gainsboro;
+  height: 200px;
+  width: 100%;
+}
+
+.photo1 {
+  background-color: darkgray;
+  float: left;
+  height: 200px;
+  width: 200px;
 }
