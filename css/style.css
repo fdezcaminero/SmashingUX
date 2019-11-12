@@ -118,7 +118,7 @@
   width: 95%;
 }
 
-.crazylink1 {
+.crazylink {
   margin: 20px auto;
   text-align: center;
 }
@@ -195,4 +195,31 @@ nav ul li:hover {
   display: inline-block;
   position: relative;
   top: -7px;
+}
+
+.design-systems {
+  padding: 100px 500px 0 200px;
+}
+
+.design-systems div {
+  display: inline-block;
+  height: 200px;
+  position: relative;
+  top: -150px;
+  left: 600px;
+  width: 150px;
+  z-index: 999;
+  transform: rotate(-25deg);
+}
+
+.design-systems div:hover {
+  transform: rotate(0);
+}
+
+.three-lists section {
+  display: inline;
+  list-style-type: disc;
+  list-style-position: outside;
+  list-style-image: none;
+  width: 33.3333333%
 }
