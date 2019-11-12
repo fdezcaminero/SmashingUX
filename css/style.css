@@ -6,151 +6,65 @@
   padding: 0;
 }
 
+.flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.bg-verylightgray {
+  background: #cccccc;
+}
+
+.bg-lightgray {
+  background: #aaaaaa;
+}
+
+.bg-gray {
+  background: #777777;
+}
+
+.bg-boldgray {
+  background: #444444;
+}
+
+.bg-veryboldgray {
+  background: #222222;
+}
+
+.bg-black {
+  background: #000000;
+}
+
+.fc-white {
+  color: #ffffff;
+}
+
 .smashingnav {
   align-items: center;
-  background-color: black;
-  display: flex;
   height: 100px;
 }
 
 .nav-items {
-  display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-.menu-item {
-  background-color: slategray;
-}
-
-.menu-item a {
-  color: white;
-}
-
-.mainlogo {
-  background-color: darkslategray;
-}
-
-.mainlogo a {
-  color: white; 
-}
-
-.search-item {
-  background-color: darkslategray;
-}
-
-.search-item a {
-  color: white; 
-}
-
-.awesomepadding {
+.pad-20px {
   padding: 20px;
 }
 
-.four-arts {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.art1 {
-  background-color: silver;
-  color: white;
+.art {
   height: 900px;
   width: 50%;
-}
-
-.art2 {
-  background-color: darkslategray;
-  color: white;
-  height: 900px;
-  width: 50%;
-}
-
-.art3 {
-  background-color: slategray;
-  color: white;
-  height: 900px;
-  width: 50%;
-}
-
-.art4 {
-  background-color: silver;
-  color: white;
-  height: 900px;
-  width: 50%;
-}
-
-.six-arts {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.art5 {
-  background-color: lightgray;
-  color: white;
-  height: 900px;
-  width: 50%;
-}
-
-.art6 {
-  background-color: darkgray;
-  color: white;
-  height: 900px;
-  width: 50%;
-}
-
-.art7 {
-  background-color: gainsboro;
-  color: white;
-  height: 900px;
-  width: 50%;
-}
-
-.art8 {
-  background-color: darkslategray;
-  color: white;
-  height: 900px;
-  width: 50%;
-}
-
-.art9 {
-  background-color: silver;
-  color: white;
-  height: 900px;
-  width: 50%;
-}
-
-.art10 {
-  background-color: lightgray;
-  color: white;
-  height: 900px;
-  width: 50%;
-}
-
-.three-columns1 {
-  display: flex;
-}
-
-.col1 {
-  background-color: gainsboro;
-}
-
-.col2 {
-  background-color: slategray;
-}
-
-.col3 {
-  background-color: dimgray;
 }
 
 .colstyle {
   height: 500px;
   padding: 40px;
   width: 33.333333%;
-}
-
-.two-columns {
-  display: flex;
 }
 
 .sixtypercent-col {
@@ -167,22 +81,6 @@
   width: 40%;
 }
 
-.three-columns2 {
-  display: flex;
-}
-
-.col4 {
-  background-color: gainsboro;
-}
-
-.col5 {
-  background-color: slategray;
-}
-
-.col6 {
-  background-color: dimgray;
-}
-
 .SmashingTV {
   background-color: black;
   border-radius: 10px;
@@ -191,10 +89,6 @@
   margin: 0 auto;
   padding: 200px;
   width: 95%;
-}
-
-.SmashingTV p {
-  color: white;
 }
 
 .crazylink1 {
@@ -212,18 +106,12 @@
   width: 95%;
 }
 
-.big-link p {
-  color: white;
-}
-
 .pot-week {
-  background-color: gainsboro;
   height: 200px;
   width: 100%;
 }
 
 .photo1 {
-  background-color: darkgray;
   float: left;
   height: 200px;
   width: 200px;
