@@ -222,11 +222,26 @@ nav ul li:hover {
 }
 
 .listncolumn section {
+  margin: 20px;
   width: 30%;
 }
 
-.listncolumn div {
+.listncolumn section:hover {
+  transform: scale(1.1);
+}
+
+.redcat {
+  left: 500px;
+  position: relative;
+  text-align: center;
+  top: -275px;
   width: 60%;
+}
+
+.fakeimage {
+  display: inline-block;
+  height: 200px;
+  width: 300px;
 }
 
 .h-daysago {
