@@ -397,3 +397,9 @@ footer {
   grid-template-columns: 1fr 2fr 1fr;
   justify-content: center;
 }
+
+.div-button1 {
+  background: gray;
+  margin: 0 auto;
+  width: 400px;
+}
