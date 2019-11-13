@@ -1,7 +1,9 @@
 @font-face {
   font-family: "Mija Regular";
-  src: url("../resources/4fb2accf874593635afa99c122467fd6.eot");
-  src: url("../resources/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"),
+  src:
+  url("../resources/4fb2accf874593635afa99c122467fd6.eot");
+  src:
+  url("../resources/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"),
   url("../resources/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"),
   url("../resources/4fb2accf874593635afa99c122467fd6.woff") format("woff"),
   url("../resources/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"),
@@ -10,8 +12,10 @@
 
 @font-face {
   font-family: "Mija Bold";
-  src: url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot");
-  src: url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"),
+  src:
+  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot");
+  src:
+  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"),
   url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"),
   url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"),
   url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"),
@@ -40,31 +44,31 @@
 }
 
 .bg-verylightgray {
-  background: #cccccc;
+  background: #ccc;
 }
 
 .bg-lightgray {
-  background: #aaaaaa;
+  background: #aaa;
 }
 
 .bg-gray {
-  background: #777777;
+  background: #777;
 }
 
 .bg-boldgray {
-  background: #444444;
+  background: #444;
 }
 
 .bg-veryboldgray {
-  background: #222222;
+  background: #222;
 }
 
 .bg-black {
-  background: #000000;
+  background: #000;
 }
 
 .fc-white {
-  color: #ffffff;
+  color: #fff;
 }
 
 .smashingnav {
@@ -81,7 +85,7 @@
   padding: 20px;
 }
 
-.pad-5px{
+.pad-5px {
   padding: 5px;
 }
 
@@ -317,7 +321,7 @@ nav ul li:hover {
 }
 
 .article-image {
-  background: #cccccc;
+  background: #ccc;
   display: inline-block;
   height: 150px;
   width: 150px;
@@ -345,10 +349,10 @@ footer {
 }
 
 .footer-li::before {
-  color: red; 
-  content: "\2022"; 
-  display: inline-block; 
-  font-weight: bold; 
+  color: red;
+  content: "\2022";
+  display: inline-block;
+  font-weight: bold;
   margin-left: -1em;
   width: 1em;
 }
