@@ -1,18 +1,19 @@
 @font-face {font-family: "Mija Regular";
-  src: url("../resources/4fb2accf874593635afa99c122467fd6.eot"); /* IE9*/
-  src: url("../resources/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../resources/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"), /* chrome、firefox */
-  url("../resources/4fb2accf874593635afa99c122467fd6.woff") format("woff"), /* chrome、firefox */
-  url("../resources/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../resources/4fb2accf874593635afa99c122467fd6.svg#Mija W03 Regular") format("svg"); /* iOS 4.1- */
+  src: url("../resources/4fb2accf874593635afa99c122467fd6.eot");
+  src: url("../resources/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"),
+  url("../resources/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"),
+  url("../resources/4fb2accf874593635afa99c122467fd6.woff") format("woff"),
+  url("../resources/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"),
+  url("../resources/4fb2accf874593635afa99c122467fd6.svg#Mija W03 Regular") format("svg");
 }
+
 @font-face {font-family: "Mija Bold";
-  src: url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot"); /* IE9*/
-  src: url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"), /* chrome、firefox */
-  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"), /* chrome、firefox */
-  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.svg#Mija W03 Bold") format("svg"); /* iOS 4.1- */
+  src: url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot");
+  src: url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"),
+  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"),
+  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"),
+  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"),
+  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.svg#Mija W03 Bold") format("svg");
 }
 
 * {
@@ -348,7 +349,7 @@ footer {
   font-weight: bold; 
   margin-left: -1em;
   width: 1em;
-} 
+}
 
 .footer-ul {
   display: flex;
