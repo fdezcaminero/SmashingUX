@@ -28,6 +28,10 @@
   display: flex;
 }
 
+.flex-center {
+  justify-content: center;
+}
+
 .f-wrap {
   flex-wrap: wrap;
 }
@@ -74,6 +78,15 @@
   padding: 20px;
 }
 
+.pad-5px{
+  padding: 5px;
+}
+
+.art1 {
+  padding: 100px 60px;
+  width: 50%;
+}
+
 .art {
   height: 750px;
   padding: 200px 60px;
@@ -113,14 +126,15 @@
   background-color: black;
   border-radius: 10px;
   color: white;
-  height: 500px;
+  
   margin: 0 auto;
-  padding: 200px;
+  padding: 50px 200px;
   width: 95%;
+  text-align: center;
 }
 
 .crazylink {
-  margin: 20px auto;
+  margin: 100px auto;
   text-align: center;
 }
 
@@ -128,14 +142,15 @@
   background-color: black;
   border-radius: 10px;
   color: white;
-  height: 500px;
   margin: 0 auto;
-  padding: 200px;
+  padding: 50px 150px;
   width: 95%;
+  text-align:center;
 }
 
 .pot-week {
-  height: 200px;
+  padding: 50px;
+  height: 300px;
   width: 100%;
 }
 
@@ -143,6 +158,12 @@
   float: left;
   height: 200px;
   width: 200px;
+  margin-right: 50px;
+  transform: rotate(-10deg);
+}
+
+.photo1:hover {
+  transform: rotate(0);
 }
 
 nav ul li:hover {
@@ -178,6 +199,26 @@ nav ul li:hover {
   font-family: 'Mija Regular';
 }
 
+.f-regular {
+  font-family: 'Mija Regular';
+}
+
+.f-light {
+  font-weight: 100;
+}
+
+.f-lineh-1_5 {
+  line-height: 1.5rem;
+}
+
+.capitalize {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .article-title {
   font-size: 2.8rem;
   padding: 20px 0;
@@ -206,8 +247,8 @@ nav ul li:hover {
   display: inline-block;
   height: 200px;
   position: relative;
-  top: -150px;
-  left: 600px;
+  top: -220px;
+  left: 500px;
   width: 150px;
   z-index: 999;
   transform: rotate(-25deg);
@@ -230,12 +271,15 @@ nav ul li:hover {
   transform: scale(1.1);
 }
 
+.scaleonhover:hover {
+  transform: scale(1.1);
+}
+
 .redcat {
-  left: 500px;
-  position: relative;
+  padding: 20px;
   text-align: center;
-  top: -275px;
   width: 60%;
+  display: inline-block;
 }
 
 .fakeimage {
@@ -314,4 +358,10 @@ footer {
   width: 90%;
   margin: 0 auto;
   justify-content: center;
+}
+
+.input {
+  border: none;
+  background: rgba(0,0,0,0);
+  text-align: center;
 }
