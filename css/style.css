@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Mija Regular";
-    src: url("../resources/4fb2accf874593635afa99c122467fd6.eot");
-    src: url("../resources/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"), url("../resources/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"), url("../resources/4fb2accf874593635afa99c122467fd6.woff") format("woff"), url("../resources/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"), url("../resources/4fb2accf874593635afa99c122467fd6.svg#Mija W03 Regular") format("svg");
+  src: url("../resources/4fb2accf874593635afa99c122467fd6.eot");
+  src: url("../resources/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"), url("../resources/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"), url("../resources/4fb2accf874593635afa99c122467fd6.woff") format("woff"), url("../resources/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"), url("../resources/4fb2accf874593635afa99c122467fd6.svg#Mija W03 Regular") format("svg");
 }
 
 @font-face {
   font-family: "Mija Bold";
-    src: url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot");
-    src: url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.svg#Mija W03 Bold") format("svg");
+  src: url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot");
+  src: url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.svg#Mija W03 Bold") format("svg");
 }
 
 * {
@@ -160,6 +160,14 @@
   transform: rotate(0);
 }
 
+.liststylebullet li {
+  list-style: disc inside none;
+}
+
+.footer-ul2 li {
+  padding: 10px 20px;
+}
+
 nav ul li:hover {
   transform: scale(1.1);
 }
@@ -190,11 +198,11 @@ nav ul li:hover {
 }
 
 .author-name em {
-  font-family: 'Mija Regular';
+  font-family: 'Mija Regular', sans-serif;
 }
 
 .f-regular {
-  font-family: 'Mija Regular';
+  font-family: 'Mija Regular', sans-serif;
 }
 
 .f-light {
@@ -228,7 +236,7 @@ nav ul li:hover {
 
 .hashtags span {
   display: inline-block;
-  font-size: .65rem;
+  font-size: 0.65rem;
   position: relative;
   top: -7px;
 }
@@ -250,10 +258,6 @@ nav ul li:hover {
 
 .design-systems div:hover {
   transform: rotate(0);
-}
-
-.liststylebullet li {
-  list-style: disc inside none;
 }
 
 .listncolumn section {
@@ -333,7 +337,7 @@ footer {
 }
 
 .footer-li a {
-  font-family: "Mija Regular";
+  font-family: "Mija Regular", sans-serif;
 }
 
 .footer-li::before {
@@ -369,10 +373,6 @@ footer {
   flex-flow: row wrap;
   justify-content: center;
   margin: 0 auto;
-}
-
-.footer-ul2 li {
-  padding: 10px 20px;
 }
 
 .pad-bottom-40px {
