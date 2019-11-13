@@ -1,21 +1,17 @@
 @font-face {
   font-family: "Mija Regular";
-  src:url("../resources/4fb2accf874593635afa99c122467fd6.eot");
-  src:url("../resources/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"),
-  url("../resources/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"),
-  url("../resources/4fb2accf874593635afa99c122467fd6.woff") format("woff"),
-  url("../resources/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"),
-  url("../resources/4fb2accf874593635afa99c122467fd6.svg#Mija W03 Regular") format("svg");
+    src:
+  url("../resources/4fb2accf874593635afa99c122467fd6.eot");
+    src:
+  url("../resources/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"), url("../resources/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"), url("../resources/4fb2accf874593635afa99c122467fd6.woff") format("woff"), url("../resources/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"), url("../resources/4fb2accf874593635afa99c122467fd6.svg#Mija W03 Regular") format("svg");
 }
 
 @font-face {
   font-family: "Mija Bold";
-  src:url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot");
-  src:url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"),
-  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"),
-  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"),
-  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"),
-  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.svg#Mija W03 Bold") format("svg");
+    src:
+  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot");
+    src:
+  url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"), url("../resources/7bd7f049ab12f7efc10d48e5fa57a618.svg#Mija W03 Bold") format("svg");
 }
 
 * {
@@ -146,7 +142,7 @@
   color: white;
   margin: 0 auto;
   padding: 50px 150px;
-  text-align:center;
+  text-align: center;
   width: 95%;
 }
 
